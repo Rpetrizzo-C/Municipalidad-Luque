@@ -1,6 +1,7 @@
 body{
 	background: #fafafa;
 	font-family: 'Varela Round', sans-serif;
+	padding: 0 20% 0 20%;
 }
 .form-inline {
 	display: inline-block;
@@ -102,6 +103,7 @@ body{
 		width: 250px;
 		margin-right: 30px;
 	}
+	
 }
 @media (max-width: 991px){
 	.form-inline {
@@ -111,5 +113,8 @@ body{
 	}
 	.input-group {
 		width: 100%;
+	}
+	body {
+		padding: 0 0 0 0;
 	}
 }

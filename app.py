@@ -10,7 +10,10 @@ def index():
 def contacto():
     return render_template('contacto.html')
 
-if __name__ == '__main__':
-    app.run(debug=True)
+@app.route('/novedades')
+def novedades():
+    return render_template('novedades.html')
+
+
 
 
