@@ -14,6 +14,8 @@ def contacto():
 def novedades():
     return render_template('novedades.html')
 
-
+@app.route('/#')
+def redirect():
+    return redirect(url_for('index'))
 
 

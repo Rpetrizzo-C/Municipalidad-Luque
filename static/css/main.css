@@ -1,7 +1,7 @@
 body{
 	background: #fafafa;
 	font-family: 'Varela Round', sans-serif;
-	padding: 0 20% 0 20%;
+	padding: 0 7%;
 }
 .form-inline {
 	display: inline-block;
@@ -39,7 +39,7 @@ body{
 	color: #eb5844;
 }
 .navbar .navbar-nav a:hover, .navbar .navbar-nav a:focus {
-	color: #f08373 !important;
+	color: #555;
 }
 .navbar .navbar-nav a.active, .navbar .navbar-nav a.active:hover {
 	color: #eb5844 !important;
@@ -55,9 +55,7 @@ body{
 	border-width: 0 0 1px 0;
 	box-shadow: none;
 }
-.search-box input.form-control:focus {		
-	border-color: #f08373;		
-}
+
 .search-box .input-group-text {
 	min-width: 35px;
 	border: none;
